@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1774429742-a7c077d9e1ddfe9bfbb5d8550fadc520.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Paf Casino Sverige: Licensierat kasino med bonusar och coola spel</title>
+    <meta name="description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <link rel="canonical" href="https://#">
+    <meta property="og:title" content="Paf Casino Sverige: Licensierat kasino med bonusar och coola spel">
+    <meta property="og:description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <meta property="og:url" content="https://#">
+    <meta property="og:site_name" content="Paf Casino Sverige: Licensierat kasino med bonusar och coola spel">
+    <meta property="og:locale" content="en-AU">
+    <meta property="og:image" content="_assets/images/1774429945-22ca.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pafcasino">
+    <meta name="twitter:title" content="Paf Casino Sverige: Licensierat kasino med bonusar och coola spel">
+    <meta name="twitter:description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <meta name="twitter:image" content="_assets/images/1774429945-22ca.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1774429777-97e9a62e3c31afb04292870273a92bf8.webp" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en-AU">
+
+    <link rel="apple-touch-icon" href="_assets/images/1774429729-97e9a62e3c31afb04292870273a92bf8.webp" sizes="96x96">
+    <link rel="icon" href="_assets/images/1774429729-97e9a62e3c31afb04292870273a92bf8.webp" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1774429989-22ca.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://#" />
+    <link rel="alternate" hreflang="en" href="https://#" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#4a7f87"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#41AF5A"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#4a7f87"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#4a7f87"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#41AF5A"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://#" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1774429742-a7c077d9e1ddfe9bfbb5d8550fadc520.svg" alt="Paf Casino Sverige Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Sign Up" id="navSignUp"> Sign Up </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Play Now" id="navPlayNow"> Play Now </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">H1 title about casino</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">More Info</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Wide slots and live casino selection</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Fast payouts and convenient cashier system</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Bonuses, free spins, and promos</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">VIP direction with cashback rewards</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Mobile version, APK, and PWA</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">24/7 support via chat and email</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Responsible gaming with flexible limits</p>
+                                </li>
+                                <li class="providersGroup">At 22Casino, we focus on smooth navigation, broad entertainment variety, and stable cross-device performance. We make it easy to move between slots, live tables, TV games, poker, virtual sports, and instant-win formats. The platform is also defined by around-the-clock support, a strong promo structure, and practical responsible gaming tools.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">22Casino App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1774430083-22.webp" title="Paf Casino Sverige Mobile"
+                                alt="22Casino App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="22Casino App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App 22Casino App" title="22Casino App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About 22Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">22Casino stands out because our strong welcome structure is paired with ongoing promotions beyond the first deposits. We also stand apart through tournament activity, including slot races, drops mechanics, and large promotional prize pools.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Welcome package — up to A$2,494</li>
+                                        <li class="historyItem">10th deposit — 50% up to A$499</li>
+                                        <li class="historyItem">Tournaments — pools up to A$16.63M</li>
+                                    </ul>
+                                    <p class="historyDescription">At 22Casino, we build an online casino experience around variety, ease of access, and a clear entertainment structure. Our platform brings together slots, live casino, TV games, poker, bingo, virtual sports, scratch cards, lotto, and additional instant-play formats. Inside the live section, we place strong emphasis on classic tables, faster game formats, and VIP-oriented live rooms. That gives players a choice between a calmer slot session and a more dynamic pace with real dealers. For users who prefer shorter play cycles, we offer TV games, virtual events, and instant-win content. For players who enjoy familiar card mechanics, poker tables and classic live categories remain an important part of the lobby.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1774430090-mac-22.webp" alt="History" title="Paf Casino Sverige Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Bonuses also play a central role at 22Casino. We use a welcome package for the first deposits, additional bonuses at later deposit stages, free spins, cashback, and rotating promo campaigns. Our rules clearly outline activation terms, wagering requirements, bonus validity, and the stake cap that applies while bonuses are active. That makes the promo structure easier to understand before real-money play begins. For ongoing players, we also maintain a VIP direction with levels, cashback, and extra privileges tied to activity.
+The entertainment side of 22Casino goes beyond a standard library. We regularly feature tournament mechanics, seasonal promos, leaderboard races, and Drops-style campaigns that add competition to normal play. That gives regular slot or live sessions an extra layer of engagement. Mobile access is also a major part of the product: we support a responsive web version, an Android APK, and PWA installation for fast access from the device screen. We focus on interface simplicity, smooth switching between sections, and quick visibility of promotions without overloading the menu. As a result, 22Casino feels like a complete gaming ecosystem where bonuses, games, tournaments, and responsible play settings all work together.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">22Casino: your comfort — rules, security, support</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Access Rules, Account Use, and Responsible Gaming
+</h3>
+<p>
+Access to 22Casino requires that every user is at least 18 years old or the legal age in their jurisdiction. We expect registration to be completed only with accurate personal details and only by the real account holder. The use of another person’s payment details, wallets, or account credentials is not accepted. During registration, it is important to provide a valid phone number and email because they may be needed for identity confirmation and account recovery. We also expect each user to determine independently whether access to the service is lawful where they live.
+</p>
+<br>
+<p>
+Verification is a major part of how 22Casino protects account security. We may request identity documents, proof of address, confirmation of payment ownership, and in some situations additional documents or even a video check. If data does not match, withdrawals and account operations may be paused until the review is completed. Duplicate accounts and attempts to bypass restrictions through additional profiles are not allowed. Bonus misuse is also prohibited, including low-risk wagering patterns, artificial wagering completion, and the use of multiple accounts or devices.
+</p>
+<br>
+<p>
+Responsible gaming is an essential part of the 22Casino rules framework. We do not position gambling as a source of income and we provide self-restriction tools, deposit limits, and self-exclusion options. The service allows account restriction for up to five years, while some limit changes can only be made after a mandatory waiting period. If a player notices harmful behaviour, the right step is to reduce activity, activate restrictions, or stop play entirely. We also make it clear that gambling under emotional pressure, while intoxicated, or while chasing losses goes against safe use of the platform.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Main access conditions
+</h4>
+<ul>
+            <li>• 18+ or higher if local law requires it.</li>
+            <li>• One account must belong to one real person.</li>
+            <li>• Registration data must be accurate and verifiable.</li>
+            <li>• Each player is responsible for checking local legality.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+What is prohibited at 22Casino
+</h4>
+<ul>
+            <li>• Using someone else’s payment details.</li>
+            <li>• Creating duplicate accounts.</li>
+            <li>• Requesting withdrawals without normal wagering activity after a deposit.</li>
+            <li>• Bonus abuse and artificial wagering strategies.</li>
+            <li>• Sharing login credentials or withdrawal codes with third parties.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Responsible gaming tools
+</h4>
+<ul>
+            <li>• Deposit limits.</li>
+            <li>• Cooling-off and self-exclusion.</li>
+            <li>• Account blocking on request.</li>
+            <li>• Budget and time control.</li>
+            <li>• Safer play decisions during emotional stress.</li>
+</ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino License, Data Protection, Encryption, and Privacy
+</h3>
+<p>
+At 22Casino, compliance and identity checks are closely connected to the Curacao regulatory framework. This is visible in the KYC rules, where acceptable identity documents include documents designated by the Ministry of Finance of Curacao. In practice, this means we build our operating model around formal identity checks, address verification, source-of-funds review, and payment legitimacy control. For the player, this creates a stricter but more structured transaction environment.
+</p>
+<br>
+<p>
+Data protection is described in a dedicated Privacy & Management of Personal Data section. There, we state that confidentiality is taken seriously, explain the purposes of data collection, and outline the consent model for data processing. The same rules also make it clear that the privacy approach is aligned with GDPR-oriented standards. This matters because it explains how registration details, contact information, and payment data are collected, stored, and used.
+</p>
+<br>
+<p>
+From a practical security perspective, 22Casino relies not only on storing data, but on verifying account behaviour and financial activity. We can compare the account holder’s identity with payment details, request a selfie with ID, ask for copies of bank cards, confirm the address, and request additional financial documents where needed. If a withdrawal method differs from the deposit method, enhanced verification may follow. When suspicious activity is detected, operations can be paused and an internal review may begin until the check is complete.
+</p>
+<br>
+<p>
+In public independent descriptions of 22Casino, security is commonly associated with SSL protection and encrypted handling of sensitive information. The official rules, however, place stronger emphasis on access control, AML and KYC reviews, payment ownership verification, and the right to block doubtful transactions. In practical terms, this means player protection is built through a combination of technical safeguards and strict transactional oversight.
+</p>
+<br>
+<p>
+The privacy policy at 22Casino also covers cookies, consent handling, information disclosure where legally required, and international data transfers. We additionally recognize the player’s right to request access to stored personal data, correct it, block it, or request its deletion in line with applicable regulation. Taken together, this creates a privacy and security model in which confidentiality, payment protection, and anti-fraud procedures operate as one system.
+</p>
+<br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Deposits, Withdrawals, Security, and Processing Times
+</h3>
+<p>
+At 22Casino, the cashier is built around a few clear operating principles. Withdrawal requests are processed 24/7, while the general approval window in the rules can take up to 5 business days. The actual speed depends on the payment method, the verification status of the account, and whether the withdrawal method matches the deposit method. We strongly prefer the same payment details to be used for both directions because that usually makes checks faster and more predictable.
+</p>
+<br>
+<p>
+Card payments have their own processing logic. Returns to eligible Visa cards are processed immediately, but final arrival normally takes 3 to 10 business days. If the Visa withdrawal is above the total amount previously deposited, that excess amount is usually processed within about one hour and then still goes through the banking cycle of 3 to 10 business days. For Skrill, Neteller, and PayPal, returns to the original deposit are processed immediately and usually appear within minutes. Amounts above the deposited total are generally approved within about one hour and also arrive quickly after processing.
+</p>
+<br>
+<p>
+Wire Transfer and Direct Bank Transfer are normally sent for processing within 24 hours except on weekends, and then they usually arrive within 3 to 5 business days. All transactions at 22Casino are covered by internal KYC and AML controls. If needed, we may request identity documents, proof of address, a selfie with ID, confirmation of payment ownership, and proof of funds. If a player tries to withdraw without normal wagering activity after depositing, or uses third-party payment details, the payout may be delayed or declined until the review is complete.
+</p>
+<br>
+<p>
+Based on publicly available reviews, the minimum withdrawal depends on the payment method. Skrill and Neteller are commonly listed from about A$17 with very high upper transaction ceilings, bank transfer from about A$67, and cards from about A$83 with a lower card-specific cap per transaction. Publicly confirmed daily and monthly withdrawal limits are usually not specified, so they should be treated as variable and method-dependent. All A$ values below are approximate.
+</p>
+<br>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #4A7F87;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Method</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Deposit speed</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Payout after approval</th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Visa</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Instant or near-instant</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">3–10 business days</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Skrill</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Instant</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Within minutes</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Neteller</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Instant</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Within minutes</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>PayPal</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Instant</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Within minutes</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Wire Transfer</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Fast after dispatch</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">3–5 business days</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Direct Bank Transfer</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Fast after dispatch</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">3–5 business days</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Minimum withdrawal and public limits
+</h4>
+<ul>
+            <li>• Skrill / Neteller minimum withdrawal: from about A$17.</li>
+            <li>• Bank transfer minimum withdrawal: from about A$67.</li>
+            <li>• Card minimum withdrawal: from about A$83.</li>
+            <li>• Card maximum per transaction: about A$1,663.</li>
+            <li>• Skrill / Neteller maximum per transaction: up to about A$166,278.</li>
+            <li>• Daily withdrawal limit: not publicly specified.</li>
+            <li>• Monthly withdrawal limit: not publicly specified.</li>
+</ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Customer Support and Service Quality
+</h3>
+<p>
+At 22Casino, customer support is structured across several channels so each request can go directly to the right department. The main fast-response options for players are live chat and email support. On the official contacts page, we also separate requests related to security, complaints, blocked accounts, and technical issues. This makes the support model more practical because a verification issue and a bonus question do not have to wait in the same undifferentiated queue.
+</p>
+<br>
+<p>
+Support is presented as available 24/7, which means basic help can be reached at any time of day. For fast-moving situations such as login issues, bonus questions, payment status, or finding the right section, live chat is the most natural first option. Email works better for formal cases, especially when documents need to be attached or when a dispute must be explained in detail. Under the official dispute procedure, complaint receipt and an explanation of the handling process should be provided within one week after the complaint is received. That is a strong sign that even difficult cases follow a formal review route.
+</p>
+<br>
+<p>
+From a service quality perspective, 22Casino clearly values structure. Separate public emails are listed for security, technical support, complaints, and blocked accounts. This makes it easier for players to understand where to write when the issue concerns account safety, a technical problem, an access block, or a formal claim. A phone line is not prominently presented on the current public contacts page, so the main communication model is built around chat and email.
+</p>
+<br>
+<p>
+Language availability at 22Casino appears broad already at the interface level, since the website is available in many localized versions. That suggests a multilingual service model, although the contacts page does not publicly list every support language in detail. In practice, English is the clearest minimum working language, which is visible in the primary technical email address support-en@22casino.com. Overall, the service looks organized, round-the-clock, and designed around specialized handling.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Communication channels
+</h4>
+<ul>
+            <li>• Live chat for fast account and gameplay questions.</li>
+            <li>• Email for documents, complaints, and detailed case descriptions.</li>
+            <li>• Separate addresses for security, blocked accounts, and formal claims.</li>
+            <li>• No prominently listed public phone line on the current contacts page.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Response speed and service quality
+</h4>
+<ul>
+            <li>• Live chat is the fastest route for quick help.</li>
+            <li>• Email is more suitable for formal and document-based requests.</li>
+            <li>• Complaints follow a dedicated route with acknowledgement within one week.</li>
+            <li>• The service structure feels specialized and organized.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Language availability
+</h4>
+<ul>
+            <li>• The website interface is multilingual.</li>
+            <li>• English is the clearest baseline support language.</li>
+            <li>• The service model is suitable for an international audience.</li>
+            <li>• Department-based routing makes communication easier.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Entertainment and Gaming at 22Casino</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Loyalty Program and VIP Levels
+</h3>
+<p>
+At 22Casino, the VIP direction works as an extension of the bonus system for players who stay active over time and prefer ongoing privileges rather than one-off offers. In public descriptions, our VIP model is usually presented as an 8-level system built around experience points, growing cashback, and more personalized rewards. This makes the loyalty structure feel practical rather than decorative: real wagering activity affects status, and status affects the range of benefits available.
+</p>
+<br>
+<p>
+The core idea is simple. After registration and the start of real-money play, the player enters a progression system, earns experience from activity, and gradually climbs through the levels. At the early stages, the main focus is cashback and a better experience accumulation rate. At higher stages, the benefits usually expand into faster withdrawals, stronger support priority, exclusive offers, and more personal treatment. That keeps the program relevant for both measured players and highly active ones.
+</p>
+<br>
+<p>
+According to the available descriptions, the entry level is Copper with around 5% cashback. The structure then moves through Bronze, Silver, Gold, Ruby, Sapphire, and Diamond, where cashback rises step by step up to 11% at Diamond. The top tier is commonly described as VIP Status and follows a different logic: in several reviews it is presented as a personalized bet-based cashback model of roughly 0.05% to 0.25%, plus added VIP privileges. In practice, that means the most active players receive a more flexible reward structure instead of a standard loss rebate only.
+</p>
+<br>
+<p>
+Joining the loyalty program usually does not require a separate form. Participation is tied to an active account and real-money gameplay. It remains important that the account is correctly registered, that the player is eligible for promotions, and that the platform rules are respected. Breaches of bonus rules, multi-accounting, third-party payment use, or suspicious activity can affect access to loyalty benefits. This means the VIP path is linked not only to volume of play, but also to clean account behaviour.
+</p>
+<br>
+<p>
+The main strength of the VIP direction at 22Casino is the combination of several practical benefits at once. A player gets cashback, access to special offers, stronger support priority, and potentially a more comfortable withdrawal experience. For players who prefer long-term engagement, this structure is more meaningful than a single deposit promotion. That is why loyalty becomes one of the defining elements of the overall 22Casino experience.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Registration conditions
+</h4>
+<ul>
+            <li>• Active registered account.</li>
+            <li>• Real-money gameplay activity.</li>
+            <li>• Compliance with platform and bonus rules.</li>
+            <li>• No multi-accounting or payment misuse.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Levels and how to reach them
+</h4>
+<ul>
+            <li>• Copper — from 0 XP, 5% cashback.</li>
+            <li>• Bronze — from 300,000 XP, 6% cashback.</li>
+            <li>• Silver — from 1,000,000 XP, 7% cashback.</li>
+            <li>• Gold — from 2,000,000 XP, 8% cashback.</li>
+            <li>• Ruby — from 5,000,000 XP, 9% cashback.</li>
+            <li>• Sapphire — from 15,000,000 XP, 10% cashback.</li>
+            <li>• Diamond — from 25,000,000 XP, 11% cashback.</li>
+            <li>• VIP Status — from 75,000,000 XP, personalized cashback around 0.05%–0.25% on wagers.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Available rewards and perks
+</h4>
+<ul>
+            <li>• Tier cashback based on status.</li>
+            <li>• Faster experience progression at higher levels.</li>
+            <li>• Exclusive offers and tailored promotions.</li>
+            <li>• Priority support for active players.</li>
+            <li>• A more comfortable payout path for stronger VIP profiles.</li>
+</ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Bonuses, Special Offers, Wins, and Tournament Promotions
+</h3>
+<p>
+At 22Casino, the bonus ecosystem goes well beyond the VIP program. We use a welcome package for the first deposits, free spins, a separate 10th-deposit bonus, gift-style rewards, cashback mechanics, and rotating promotions shown in the promo section. Based on the official cap totals, the first four deposit bonuses reach about A$2,494 in combined value, and current independent descriptions usually pair that welcome package with up to 150 free spins. That structure creates not just one entry offer, but a sequence of reward stages.
+</p>
+<br>
+<p>
+The rules also describe a separate bonus for the 10th deposit: 50% up to about A$499. This is useful for players who continue after the initial welcome cycle and want another structured boost later on. In addition to deposit-related rewards, the rules define gifts as a separate category of bonus that can work without a deposit, though they come with individual activation terms and expiry periods. That makes the promotions area more flexible and not limited only to cashier activity.
+</p>
+<br>
+<p>
+From a game-specific promotion angle, 22Casino is strongly connected with slot campaigns and tournament activity. Independent reviews regularly identify slot races, Drops & Wins mechanics, daily competitions, and seasonal leaderboard events around the brand. According to publicly available observations, active tournaments on the platform have ranged from about A$83,139 to around A$16.63 million in prize funds. These campaigns work especially well with slots, live formats, and provider-backed promotional events where qualifying wagers, spins, or results over time are counted.
+</p>
+<br>
+<p>
+When we look at wins as part of the overall user experience, 22Casino strengthens them not only through direct bonuses but also through extra game mechanics. We feature a jackpot section, live VIP tables, TV games, and faster-play categories where promotions and competition feel like part of the session itself. Because of that, bonuses are not isolated banners but a natural part of the entertainment flow. A player can move from the welcome package to free spins, then into tournaments, and later into more regular ongoing offers.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Main bonuses and offers
+</h4>
+<ul>
+            <li>• Welcome package — up to about A$2,494 across the first 4 deposits; strong starting bonus structure.</li>
+            <li>• Up to 150 free spins — commonly described as part of the welcome journey.</li>
+            <li>• 10th deposit bonus — 50% up to about A$499 after the early deposit cycle.</li>
+            <li>• Gifts — special no-deposit style rewards with individual conditions.</li>
+            <li>• Cashback and rotating promos — recurring offers in the bonus area.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Tournaments and extra winning formats
+</h4>
+<ul>
+            <li>• Slot races — prize competitions linked to qualifying play.</li>
+            <li>• Leaderboard events — rewards based on ranking over a promo period.</li>
+            <li>• Drops & Wins campaigns — random prize mechanics and extra rewards.</li>
+            <li>• Large seasonal funds — observed ranges from about A$83,139 to A$16.63 million.</li>
+</ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Game Selection and Betting Entertainment
+</h3>
+<p>
+At 22Casino, the game catalog is designed to cover both classic casino formats and faster modern mechanics. Slots take the central role and form the largest share of the entertainment offer. Inside that area, we support several subcategories including hot slots, jackpot games, 3D slots, and themed collections. That allows players to choose not only by title, but also by game style, mechanics, and session tempo.
+</p>
+<br>
+<p>
+The live section is the second major block at 22Casino. We feature live roulette, live dealer games, speed games, and VIP tables. This makes it easy to move from standard table sessions to faster or more premium live formats without leaving the platform. For players who value studio presentation and a land-based casino feel, this is one of the strongest parts of the lobby.
+</p>
+<br>
+<p>
+TV Games have their own place at 22Casino. This is an interactive format with a quick cycle that blends show-style presentation with casino mechanics. These titles are usually preferred by players who want a lighter pace and shorter rounds. Alongside them, we also support scratch cards and instant-win games where the outcome arrives almost immediately.
+</p>
+<br>
+<p>
+Card-based content is also well represented. On our official poker pages, Texas Hold’em, Omaha, and tournament formats are specifically highlighted. This is important for players who want poker to remain a dedicated destination rather than disappearing inside the wider casino lobby. The classic casino backbone is also preserved through roulette, table sessions, and jackpot-oriented play.
+</p>
+<br>
+<p>
+Beyond the classic casino offering, 22Casino includes virtual sports such as football, racing, and tennis. We also feature bingo, lotto, Keno-style instant games, the 22games section, and in some localized versions extra entertainment categories like hunting and fishing. This makes the product broader than a simple combination of slots and live tables. As a result, 22Casino works well for long slot sessions, quick rounds, studio-based live play, card mechanics, and game-show style entertainment.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Main game categories
+</h4>
+<ul>
+            <li>• Slots — the core catalog with multiple themes, mechanics, and jackpot content.</li>
+            <li>• Live Casino — roulette, dealer tables, fast games, and VIP rooms.</li>
+            <li>• TV Games — show-style games with short round cycles.</li>
+            <li>• Poker — Texas Hold’em, Omaha, and tournaments.</li>
+            <li>• Virtual Sports — virtual football, racing, and tennis.</li>
+            <li>• Scratch Cards — instant-result entertainment.</li>
+            <li>• Bingo and Lotto — additional alternative play categories.</li>
+            <li>• 22games / Other games — more unusual and lighter mini-game formats.</li>
+</ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Minimum and Maximum Bet Limits
+</h3>
+<p>
+At 22Casino, bet limits depend on the exact game, provider, and live table you choose. We display the final minimum and maximum inside the game window, so players can see the available range before the session begins. Low-limit entry points are available, while live formats and VIP tables usually operate with a broader range. The table below gives a practical category overview, but the final limit is always set by the specific provider or table.
+</p>
+<br>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #4A7F87;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Game Type</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Min Bet</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Max Bet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Slots</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">From A$0.17</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Provider-dependent</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Jackpot Slots</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">From A$0.17</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Provider-dependent</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Roulette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Table-dependent</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Table-dependent</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Blackjack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Table-dependent</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Table-dependent</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Baccarat</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Table-dependent</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Table-dependent</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>TV Games</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Game-dependent</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Game-dependent</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Poker</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Room-dependent</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Room-dependent</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+22Casino Tournaments and Leaderboards: How to Join and Win
+</h3>
+<p>
+At 22Casino, tournament activity is usually built around slot races, leaderboard events, and Drops-style mechanics run by providers and the platform itself. To take part, a player normally needs to open the qualifying game or game pool, place eligible wagers, and track progress during the stated promo period. Points can be calculated in different ways: some events count qualifying spins, others track win multipliers, while others look at total results during a fixed time window. That is why the most important rule is always to check the exact event mechanic before starting.
+</p>
+<br>
+<p>
+In some tournaments, the main factor is the volume of qualifying activity. In others, the result depends on the quality of a short run of spins, and in some formats random Drops distribute rewards in real time. At 22Casino, daily and seasonal leaderboards have both been observed, so rankings can change across a day, a week, or an extended campaign. Your position can usually be tracked inside the tournament window or promo block, where the current rank, points total, and remaining time are shown. After the event ends, results are finalized and the prize is credited according to that event’s rules, usually either to the bonus balance or the main balance depending on the format.
+</p>
+<br>
+<p>
+To improve your chances of finishing well, it is smart to stay inside the qualifying games, avoid unrelated sections during the promo, and pay attention to the active time window. In leaderboard races, it is especially important to understand what is being counted: stake size, number of spins, multiplier value, total win, or a combination of these. At 22Casino, tournaments add a competitive layer that turns a normal session into a format with interim goals and extra rewards.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Useful tournament facts
+</h4>
+<ul>
+            <li>• Entry usually requires play in qualifying promo games.</li>
+            <li>• Points may be based on spins, wagers, multipliers, or streak results.</li>
+            <li>• Event timing directly affects the final ranking.</li>
+            <li>• Rankings should be checked during the event, not only after it ends.</li>
+            <li>• Prizes are credited after final result confirmation.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+How to improve your chances
+</h4>
+<ul>
+            <li>• Stay inside the correct qualifying games.</li>
+            <li>• Read the event card before starting.</li>
+            <li>• Understand the exact point calculation rule.</li>
+            <li>• Control your pace and bankroll over time.</li>
+            <li>• Track the leaderboard regularly.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_play_for_free_at_22casino"/><label
+                            class="faqLabel" for="can_i_play_for_free_at_22casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I play for free at 22Casino? </span></label>
+                        <div class="faqContent">
+                            <p>Yes. Many slot titles and some table games can be available in demo mode, while live dealer games and certain jackpot formats may require real-money play.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_cancel_a_bonus_at_22casino"/><label
+                            class="faqLabel" for="can_i_cancel_a_bonus_at_22casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I cancel a bonus at 22Casino? </span></label>
+                        <div class="faqContent">
+                            <p>Yes. The rules allow bonus cancellation through support, live chat, or the personal account area. Once cancelled, the related bonus balance is removed and, in some cases, winnings connected to the unfinished wagering may also be lost.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_happens_if_i_try_to_withdraw_right_after_depositing_without_playing"/><label
+                            class="faqLabel" for="what_happens_if_i_try_to_withdraw_right_after_depositing_without_playing">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What happens if I try to withdraw right after depositing without playing? </span></label>
+                        <div class="faqContent">
+                            <p>That can lead to a declined payout request or a return of funds to the balance, because the service expects normal gameplay activity and can review cashier use for abuse.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_have_more_than_one_account"/><label
+                            class="faqLabel" for="can_i_have_more_than_one_account">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I have more than one account? </span></label>
+                        <div class="faqContent">
+                            <p>No. Duplicate accounts are prohibited, and if they are detected, bonuses, bets, and even balances may be reviewed as part of an internal investigation.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="which_rules_version_prevails_if_language_versions_differ"/><label
+                            class="faqLabel" for="which_rules_version_prevails_if_language_versions_differ">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Which rules version prevails if language versions differ? </span></label>
+                        <div class="faqContent">
+                            <p>If there is a discrepancy, the English version of the rules prevails. This is especially important in bonus and dispute situations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://#" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1774429759-a7c077d9e1ddfe9bfbb5d8550fadc520.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Paf Casino Sverige" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Paf Casino Sverige" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Paf Casino Sverige" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Paf Casino Sverige" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Paf Casino Sverige" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Paf Casino Sverige" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Paf Casino Sverige" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Paf Casino Sverige" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Paf Casino Sverige" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Paf Casino Sverige" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Paf Casino Sverige" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Paf Casino Sverige" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Paf Casino Sverige" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Paf Casino Sverige" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Paf Casino Sverige" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Paf Casino </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "Get Bonus";
+    var playNowText = "Play now";
+    var maximumAmountText = "Maximum amount";
+    var wagerText = "Wager";
+    var bonusCodeText = "Bonus Code";
+    var depositText = "";
+    var casinoName = "Paf Casino Sverige";
+</script>
+
+</body>
+</html>
