@@ -43,7 +43,7 @@
             "imageSizeModifier": 0,
             "imageYModifier": 0,
             "imageXModifier": 0,
-            "logoAlt": "Paf Casino Sverige Logo"
+            "logoAlt": "22Casino Logo"
         },
         "nav": {
             "signUp": "Sign Up",
@@ -54,7 +54,7 @@
             "imageSizeModifier": 0,
             "imageYModifier": 0,
             "imageXModifier": 0,
-            "copyright": "Paf Casino"
+            "copyright": "22Casino"
         }
     },
     "pages": [
@@ -67,18 +67,18 @@
             "isDefault": true,
             "sections": {
                 "seo": {
-                    "name": "Paf Casino Sverige",
-                    "title": "Paf Casino Sverige: Licensierat kasino med bonusar och coola spel",
-                    "description": "Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!",
-                    "canonical": "#",
+                    "name": "22Casino",
+                    "title": "22Casino: Games, Bonuses, Free Spins, Payouts, VIP, and 24\/7 Support",
+                    "description": "Explore 22Casino with slots, live casino, TV games, poker, deposit bonuses, free spins, VIP perks, convenient payouts, mobile access, and round-the-clock customer support.",
+                    "canonical": "22casino-online.com",
                     "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/5061",
                     "ogImageWidth": 1200,
                     "ogImageHeight": 630,
-                    "twitterSite": "@pafcasino",
+                    "twitterSite": "22casino-online.com",
                     "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/5059"
                 },
                 "hero": {
-                    "title": "H1 title about casino",
+                    "title": "22Casino — Bonuses, Games, Payouts, and Full Platform Overview",
                     "textDesktop": "Exclusive welcome offer of",
                     "textMobile": "Exclusive welcome bonus of",
                     "playGame": "Play game",

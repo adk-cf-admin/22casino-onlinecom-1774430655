@@ -1,5 +1,5 @@
 User-agent: * 
 Allow: / 
 Disallow: /casino/
-Host: https://#/
-Sitemap: https://#/sitemap.xml
+Host: https://22casino-online.com/
+Sitemap: https://22casino-online.com/sitemap.xml
